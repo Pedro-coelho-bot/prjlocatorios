@@ -1,0 +1,38 @@
+use('locatarios')
+db.locatarios.insertOne({
+    "cpf": "45874563215",
+    "nome": "JOSE APARECIDO DE FONSECA",
+    "idade": 43,
+    "data_nascimento": "1978-11-20",
+    "telefone": "(15) 974562365",
+    "valor_aluguel": "3000,00"
+    }
+)
+
+use('locatarios')
+db.locatarios.insertOne({
+    "cpf": "56923478555",
+    "nome": "MARIA CRISTINA",
+    "idade": 53,
+    "data_nascimento": "1968-08-01",
+    "telefone": "(15) 965486325",
+    "valor_aluguel": "2500,00"
+    }
+)
+
+use('locatarios')
+db.locatarios.insertOne({
+    "cpf": "23654789632",
+    "nome": "APARECIDO DAS GRAÇAS DE LIMA",
+    "idade": 41,
+    "data_nascimento": "1981-09-19",
+    "telefone": "(15) 985234569",
+    "valor_aluguel": "1500,00"
+    }
+)
+
+use('locatarios')
+db.locatarios.find()
+
+use('locatarios')
+db.locatarios.drop()
